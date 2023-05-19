@@ -1,4 +1,4 @@
-# terraform-provider-scalyr
+# terraform-provider-dataset
 
 The DataSet Terraform Provider allows you to provision assets within DataSet.
 
@@ -9,7 +9,7 @@ The DataSet Terraform Provider allows you to provision assets within DataSet.
 	git clone git@github.com:scalyr/terraform-provider-dataset
 	go build 
 	mkdir -p ~/.terraform.d/plugins
-	cp terraform-provider-scalyr ~/.terraform.d/plugins/
+	cp terraform-provider-dataset ~/.terraform.d/plugins/
 	
 # Provider Configuration
 
