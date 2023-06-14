@@ -18,7 +18,6 @@ func validateAPIResponse(response *APIResponse, message string) error {
 }
 
 func (ap *AuthParams) setToken(token string) {
-	log.Printf("Set Token to: %v\n", token)
 	ap.Token = token
 }
 
